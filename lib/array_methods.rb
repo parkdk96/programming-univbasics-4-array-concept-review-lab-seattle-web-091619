@@ -9,6 +9,10 @@ end
 
 def find_max_value(array)
   # Add your solution here
+  max = 0
+  counter = 0
+  while array.length do
+    if array[counter] > max
 end
 
 def find_min_value(array)
