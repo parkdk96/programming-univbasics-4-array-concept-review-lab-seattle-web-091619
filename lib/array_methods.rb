@@ -9,9 +9,9 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  max = 0.to_i
+  max = 0
   counter = 0
-  while array.length && max < array[counter] do
+  while array.length && max.to_i < array[counter] do
     max = array[counter]
     counter += 1 
   end
